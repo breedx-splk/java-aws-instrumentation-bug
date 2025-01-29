@@ -10,3 +10,5 @@ parented incorrectly.
 I just run the app from intellij:
 
 <img width="718" alt="image" src="https://github.com/user-attachments/assets/c42b89b8-b96f-4f04-a7ab-1acd91a70ea4" />
+
+This example uses the splunk distro, but it's expected that the same behavior happens with vanilla upstream.
