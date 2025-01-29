@@ -29,7 +29,7 @@ public class TestApp {
             System.out.println("Ignoring exception");
         }
         SpanContext context = Span.current().getSpanContext();
-        System.out.println("ROOT: " + context.getTraceFlags() + ":" + context.getSpanId());
+        System.out.println("ROOT: " + context.getTraceId() + ":" + context.getSpanId());
         while(true){
             myMethod();
         }
